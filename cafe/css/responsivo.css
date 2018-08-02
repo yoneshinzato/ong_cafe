@@ -1,0 +1,405 @@
+@media only screen and (min-width: 280px) and (max-width:699px) {
+    
+    /* especificidades do menu hamburguer */
+    
+    p {
+        font-size:15px;
+    }
+
+    label {
+        display:block;
+        cursor:pointer;
+
+    }
+    .menu {
+        text-align: center;
+        width:100%;
+        display:none;
+
+    }
+
+    .menu a{
+        display:block;
+        border-bottom: 1px solid #eaeaeb;
+        margin:0;
+    }
+    a#especifico {
+        background:#fff;
+        border-radius:0;
+        padding:0;
+        transition:all 1s;
+        color:#a9a9a9;
+        margin:0;
+
+    }
+
+    #toggle:checked + .menu {
+        display:block;
+        /* position:relative; */
+    }
+
+    
+   #galeria .sessao-galeria a {
+       width:50%;
+       display:block;
+   }
+
+   .sessao-galeria {
+    margin:0 auto;
+   }
+
+ 
+    
+    a.ativo {
+        font-weight: 700;
+        color:#000;
+       }
+
+    /* parte do contato */
+
+    #formulario {
+        width:90%;
+    }
+    #formulario p {
+        width:100%;
+    }
+
+    .um-lado, .do-outro {
+        display:block;
+        margin-right:0;
+        width:100%;
+        margin-left:0;
+    }
+
+    .btn {
+        width:150px;
+    }
+
+    #form-contato {
+        width:100%;
+    }
+
+    /* responsividade da parte SOBRE */
+
+    .missao, .visao {
+        width:100%;
+        display:block;
+        float:none;
+    }
+
+    .valores p {
+        width:100%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    
+    /* especificidades do menu hamburguer */
+    
+    label {
+        display:block;
+        cursor:pointer;
+
+    }
+    .menu {
+        text-align: center;
+        width:100%;
+        display:none;
+
+    }
+
+    .menu a{
+        display:block;
+        border-bottom: 1px solid #eaeaeb;
+        margin:0;
+    }
+    a#especifico {
+        background:#fff;
+        border-radius:0;
+        padding:0;
+        transition:all 1s;
+        color:#a9a9a9;
+        margin:0;
+
+    }
+
+    #toggle:checked + .menu {
+        display:block;
+        /* position:relative; */
+    }
+
+    a.ativo {
+        font-weight: 700;
+        color:#000;
+       }
+
+    /* especificidades do botão envolva-se */
+
+    a#especifico:hover {
+        background: #fff;
+        color:#000;
+        border-bottom: 1px solid #eaeaeb;
+    }
+
+    a.ativo {
+        border-bottom: none;
+        padding-bottom:0;
+        font-weight: normal;
+        color:#a9a9a9;
+        border-bottom: 1px solid #eaeaeb;
+      
+       }
+
+       /* página home ou index.html */
+
+       #principal p {
+           width:70%;
+           margin-left:auto;
+           margin-right:auto;
+           font-size:16px;
+       }
+
+       #principal h1 {
+           font-size:40px;
+       }
+       #p-esquerda, #p-direita {
+           float:none;
+           display:block;
+           width:100%;
+           text-align:center;
+
+       }
+
+       .campanha-1, .campanha-2 {
+           display:block;
+           float:none;
+           width:100%;
+       }
+       .campanha-1 p, .campanha-2 p {
+           margin-bottom:30px;
+       }
+
+       .campanha-1 img, .campanha-2 img {
+           width:12%;
+       }
+       
+       /* especificidades da página sobre.html */
+
+       #p-esq, #p-dir {
+           display: block;
+           width:100%;
+           float:none;
+       }
+       #p-esq {
+           padding-bottom:30px;
+       }
+       iframe {
+           height:350px;
+       }
+
+    
+        /* mudanças da página de campanhas */
+        
+       
+        .campanhas-outras, .campanhas-todas {
+            height:500px;
+        }
+        .campanhas-1-a, .campanhas-1-b {
+            display:block;
+            width:100%;
+            float:none;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+        }
+
+        .campanhas-1-b img, .campanhas-outras-1-a img {
+            margin-top:30px;
+            max-width:80%;
+        }
+        .campanhas-outras-1 {
+            overflow:visible;
+            text-align:Center;
+        }
+        .campanhas-outras-1-a, .campanhas-outras-1-b {
+            display:block;
+            width:100%;
+            float:none;
+        }
+       
+        .campanhas-outras-1-b p {
+            margin-bottom:0;
+            padding-bottom:0;
+        }
+
+       
+
+        /* mudanças da página de contato  */
+        #form {
+            width:90%;
+        }
+        
+        section#p-direita {
+            width:100%;
+            text-align: center;
+            margin-right:auto;
+            margin-left: auto;
+            margin-top:30px;
+            display:block;
+            float:none;
+        }
+
+        #form input[type=submit] {
+            margin-bottom:30px;
+        }
+        
+        .cafe-cnpj, .inscricao-endereco {
+            width:48%;
+            margin-right:2%;
+            float:left;
+            margin-bottom:30px;
+        }
+        
+
+        #p-direita p {
+            font-size:16px;
+        }
+
+        #p-direita h3 {
+            font-size:24px;
+        }
+    }
+      
+    @media only screen and (min-width: 701px) and (max-width:989px) {
+        #principal p {
+            font-size:15px;
+        }
+        #p-direita, #p-esquerda {
+            float:none;
+            display:block;
+            width:100%;
+            text-align: center;
+        }
+        .campanha-1, .campanha-2 {
+            width:60%;
+            display:block;
+            float:none;
+            margin-bottom:30px;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        .campanha-1 img, .campanha-2 img {
+            width:16%;
+        }
+
+        /*=========== campanhas ========*/
+        .campanhas-outras, .campanhas-todas {
+            height:650px;
+        }
+        .campanhas-todas {
+            background-color: #ffe0cc;
+        }
+        .campanhas-1 {
+            overflow: visible;
+        
+        }
+        .campanhas-1-a, .campanhas-1-b {
+            display:block;
+            width:100%;
+            float:none;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+        }
+
+        .campanhas-1-b img, .campanhas-outras-1-a img {
+            margin-top:30px;
+            max-width:90%;
+        }
+        .campanhas-outras-1 {
+            
+            overflow:visible;
+            text-align:Center;
+
+        }
+
+        .campanhas-outras-1-b, .campanhas-1-a {
+            max-width:80%;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        .campanhas-outras-1-a, .campanhas-outras-1-b {
+            display:block;
+            width:100%;
+            float:none;
+        }
+       
+
+        .campanhas-outras-1-b p.btn-especial {
+            padding-bottom:30px;
+        }
+        
+       
+
+        #form {
+            width:90%;
+        }
+        #form input[type=submit] {
+            margin-bottom:30px;
+        }
+        
+        #p-direita {
+            width:100%;
+        }
+
+       
+        .cafe-cnpj {
+            float:left;
+            width:48%;
+            margin-right:2%;
+        }
+        .inscricao-endereco {
+            float:right;
+            width:48%;
+            margin-left:2%;
+        }
+
+       
+
+        footer{
+            clear:both;
+        }
+
+    }
+
+    @media only screen and (min-width:901px) {
+        body {
+            width:100%;
+            margin: 0 auto;
+            max-width:2000px;
+        }
+
+        #p-direita {
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+        }
+
+        .cafe-cnpj {
+            width:48%;
+            margin-right:2%;
+            float:left;
+            margin-bottom:30px;
+        }
+        .inscricao-endereco {
+            width:48%;
+            margin-left:2%;
+            float:left;
+            margin-bottom:30px;
+        }
+    }

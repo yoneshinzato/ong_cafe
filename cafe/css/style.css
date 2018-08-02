@@ -1,0 +1,366 @@
+/* estilos gerais */
+img, video, embed, object {
+    max-width:100%;
+}
+
+* {
+	margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+    font-size:36px;
+    color:#000;
+    
+}
+
+h3 {
+    font-size:30px;
+    color#000;
+}
+
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #ff6501;
+	content: "";
+	width: 100px;
+ 	margin-top: 10px;
+ 	margin-bottom:15px;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+
+/*=============== botão cta========== */
+.btn-especial {
+    margin-top:20px;
+}
+
+.btn-especial a {
+    background-color:#ff6501;
+    border-radius:50px;
+    padding:10px 20px;
+    color:#fff;
+    transition: all 1s;
+    font-size:14px;
+    text-transform: uppercase;
+    
+}
+
+.btn-especial a:hover {
+    background-color: #dc0000; 
+}
+
+/* btn usual */
+
+.btn-normal a {
+    background-color:#ff6501;
+    border-radius:50px;
+    margin-top:20px;
+    padding:10px 20px;
+    color:#fff;
+    transition: all 1s;
+    font-size:14px;
+    text-transform: uppercase;
+}
+
+.btn-normal a:hover {
+    background-color: #dc0000; 
+}
+
+/* container */
+
+.container {
+    max-width:1200px;
+    width:90%;
+    margin: 0 auto;
+    position:relative;
+}
+
+  
+
+/* header */
+
+.header {
+    border-bottom: 1px solid #eaeaeb;
+    text-align:right;
+    line-height: 90px;
+    height:90px;
+    position: sticky;
+    top: 0;
+    background:#fff;
+    z-index:100;
+
+}
+
+#logo {
+    float:left;
+    width:100px;
+    position:absolute;
+    top:10px;
+    left:0%;
+}
+
+#escritos {
+    float:left;
+    position:absolute;
+    left:25%;
+}
+
+.menu {
+    margin: 0;
+    
+}
+
+
+.menu a{
+    text-decoration: none;
+    margin:0 15px 0 0;
+    color:#a9a9a9;
+    clear:right;
+    transition: all 1s;
+    background:#fff;
+}
+
+.menu a:hover {
+    color:#000;
+}
+
+a#especifico {
+    margin-right:0;
+    background-color:#ff6501;
+    border-radius:50px;
+    padding:10px 20px;
+    color:#fff;
+    transition: all 1s;
+}
+
+a#especifico:hover {
+    background-color: #dc0000; 
+    color:#fff;
+}
+
+a.ativo {
+    border-bottom: 3px #ff6501 solid;
+    padding-bottom:7px;
+    font-weight: 700;
+    color:#000;
+   
+   }
+
+label {
+    margin:0;
+    font-size: 26px;
+    line-height: 70px;
+    display:none;
+    width:26px;
+    float:right;
+    margin-right:5%;
+}
+
+#toggle {
+    display:none;
+}
+
+
+/* =========main id principal ========*/
+
+#principal {
+    clear:both;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-principal.jpg) no-repeat center center;
+    background: -o-linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-principal.jpg) no-repeat center center;
+    background: -ms-linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-principal.jpg) no-repeat center center;
+    background: -moz-linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-principal.jpg) no-repeat center center;
+    background: -webkit-linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-principal.jpg) no-repeat center center;
+
+    background-size:cover;
+    padding-top:160px;
+    padding-bottom:160px;
+    max-width:100%;
+    text-align: center;    
+    background-attachment: fixed;
+    
+}
+
+
+#principal h1 {
+    font-size:45px;
+    color:white;
+    text-transform:uppercase;
+    padding-bottom:10px;
+}
+
+#principal p {
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+    line-height:30px;
+    padding-bottom:10px;
+    
+}
+
+/* SOBRE */
+
+#sobre {
+    margin-top:30px;
+    vertical-align: center;
+    
+}
+
+#sobre h2 {
+    text-align:Center;
+}
+
+#sobre h2::after {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.diminui-conteudo {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#p-esquerda {
+    width:58%;
+    margin-right:2%;
+    float:left;
+    margin-bottom:30px;
+    margin-top:30px;
+}1
+
+#p-esquerda img {
+    width:100%;
+    height:auto;
+}
+
+#p-direita {
+    width:40%;
+    float:right;
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+
+#p-direita p {
+    margin-bottom:20px;
+    text-align:left;
+}
+
+
+/* ======ID CaMPANHAS======== */
+#campanhas {
+    clear:both;
+    padding-top:30px;
+    padding-bottom:60px;
+    text-align:center;
+    width:100%;
+    height:auto;
+    background-color: #ffe0cc;
+}
+
+.campanhas-tudo {
+    width:80%;
+}
+
+#campanhas h2 {
+    margin-bottom:30px;
+}
+#campanhas h2::after {
+    margin:0 auto;
+}
+
+.campanha-1 {
+    width:32%;
+    float:left;
+    margin-right:2%;
+}
+
+.campanha-2 {
+    width:32%;
+    float:left;
+}
+
+.campanha-1 img, .campanha-2 img {
+    width:20%;
+}
+
+.campanha-1 h3, .campanha-2 h3 {
+    padding-top:10px;
+}
+
+.espaco {
+    clear:both;
+    padding-top:30px;
+}
+
+
+footer {
+    background: #fff;
+    width:100%;
+    height:70px;
+    line-height: 70px;
+    position:relative;
+    border-top: 1px solid #eaeaeb;
+}
+
+
+
+#rodape-logo {
+    padding-top: 10px;
+    width:80px;
+    float:left;
+}
+
+footer nav {
+	float:right;
+}
+
+footer nav ul li {
+	display:inline-block;
+	line-height: 70px;
+
+}
+
+footer nav ul li a {
+	display:block;
+}
+
+.ion-social-facebook {
+	padding-right: 30px;
+}
+
+.ion-social-facebook, 
+.ion-social-instagram-outline {
+	color:#ff6501;
+	font-size:30px;
+	transition: all 0.6s;
+}
+
+.ion-social-facebook:hover, 
+.ion-social-instagram-outline:hover {
+	color:#ffe0cc;
+}

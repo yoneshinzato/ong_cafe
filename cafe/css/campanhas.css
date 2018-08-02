@@ -1,0 +1,152 @@
+footer {
+    clear:both;
+}
+
+#campanhas-titulo {
+    margin:30px auto;  
+    width:70%;
+}
+
+#campanhas-titulo h2, #campanhas-titulo p {
+    text-align: center;
+}
+
+#campanhas-titulo h2::after {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.campanhas-todas {
+    width:100%;
+    background-color: #ffe0cc;
+    height:450px;
+}
+
+.campanhas-1 {
+    width:80%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.campanhas-1-a {
+    float:left;
+    padding-top:30px;
+    width:38%;
+    margin-right:2%;
+}
+
+.campanhas-1-b {
+    float:right;
+    width:58%;
+    height:auto;
+    margin-left:2%;
+}
+
+.campanhas-1-b img {
+    max-width:100%;
+    margin:30px auto;
+    height:auto;
+    opacity: 0.7;
+	transform: scale(1.0);
+  	transition: transform 0.7s, opacity 0.7s;
+}
+
+.campanhas-1-b img:hover {
+    opacity: 1.0;
+ 	transform: scale(1.01);
+}
+
+/* campanhas outras */
+
+.campanhas-outras {
+    clear:both;
+    width:100%;
+    background: #fff;
+    margin-top:30px;
+    margin-bottom:60px;
+}
+
+.campanhas-outras-1 {
+    width:70%;
+    max-height:55vh;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+}
+
+.campanhas-outras-1-a {
+    float:left;
+    width:58%;
+    margin-right:2%;
+}
+
+.campanhas-outras-1-a img {
+    max-width:100%;
+    height:auto;
+    opacity: 0.7;
+	transform: scale(1.0);
+  	transition: transform 0.7s, opacity 0.7s;
+}
+
+.campanhas-outras-1-a img:hover {
+    opacity: 1.0;
+ 	transform: scale(1.01);
+}
+
+
+.campanhas-outras-1-b {
+    float:left;
+    width:38%;
+    margin-left:2%;
+    margin-top:30px;
+}
+
+
+
+#galeria {
+    clear:both;
+	margin-top: 30px;
+}
+
+#galeria h3 {
+    text-align: center;
+    margin-top:30px;
+    padding-top:30px;
+    margin-bottom:30px;
+}
+
+.sessao-galeria {
+    padding-bottom:30px;
+}
+
+#galeria .sessao-galeria a {
+    width: 33.3%;
+    float:left;
+    opacity: 0.7;
+	transform: scale(1.0);
+  	transition: transform 0.7s, opacity 0.7s;
+}
+
+#galeria .sessao-galeria a:hover {
+    opacity: 1.0;
+ 	transform: scale(1.01);   
+}
+
+
+#galeria .sessao-galeria img {
+width: 100%;
+max-width: 500px;
+display: block;
+}
+
+.foto-pequena a {
+	text-decoration: none;
+}
+
+
+
+/* footer{
+    clear:both;
+} */

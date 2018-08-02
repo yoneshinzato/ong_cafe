@@ -1,0 +1,102 @@
+/* seção ENVOLVA */
+
+.destaque {
+    clear:both;
+}
+
+#box-slider {
+    max-height:350px;
+}
+
+#envolva {
+    padding-top:30px;
+    padding-bottom:30px;  
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+
+#envolva p, #envolva h2 {
+    text-align: center;
+    width:70%;
+    margin:0 auto;
+}
+
+#envolva h2::after {
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#formulario-2 {
+    margin:30px auto 0 auto;
+    text-align:center;
+    width:100%;
+    padding:30px 0;
+    background: #ffe0cc;
+}
+
+
+
+#formulario-2 p {
+    padding-bottom:30px;
+    width:70%;
+    text-align:center;
+    margin:30px auto;
+}
+
+#form-contato {
+    width:70%;
+    margin:0 auto;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 120px;
+}
+
+.btn{
+    width: 250px;
+  background: #ff6501;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  transition: all 1s;
+}
+
+
+.btn:hover {
+    background-color: #dc0000; 
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}

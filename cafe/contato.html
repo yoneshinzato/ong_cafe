@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div id="logo">
+                <a href="index.html"><img src="img/logo_cafe.png" alt="logo da ong"></a>
+           </div> 
+           <nav>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a href="index.html" >Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="campanhas.html">Campanhas</a>
+                <a href="contato.html" class="ativo">Contato</a>
+                <a href="envolvase.html" id="especifico">Envolva-se</a>
+            </div>
+           </nav>
+        </div>
+	</header>
+	
+	<section id="contato">
+        <div class="container">
+                <h2 class="animated fadeInUpBig">Contato</h2>
+                <div class="um-lado animated fadeInLeftBig">
+                    <p><strong>CAFE
+                    <br>Centro de Auxílio Familiar Educacional</strong></p>
+                    <p>CNPJ: 15.663.357/0001-27</p>
+                    <p>Inscrição Municipal: 211.752</p>
+
+                </div>
+
+                <div class="do-outro animated fadeInRightBig">
+                    <p><strong>Endereço</strong></p>
+                    <p>Rua Serra da Mantiqueira, 839 - Vila Carmela</p>
+                    <p>Guarulhos, SP - CEP 07178-540</p>
+                    <p>Tel.: (11) 95981-3319 / (11) 97971-6287 / (11) 4963-5368</p>
+                </div>
+    
+        </div>
+    </section>
+			
+	<section id="mapa">
+        <div class="container">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.765916555631!2d-46.396822284940136!3d-23.396684084764885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8851bcb44949%3A0x1acd138c9fdb1a0f!2sAv.+Serra+da+Mantiqueira%2C+839+-+Vila+Carmela+I%2C+Guarulhos+-+SP%2C+07178-540!5e0!3m2!1spt-BR!2sbr!4v1526648187759" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+        </div>
+    </section>	
+            
+    <section class="formulario"> 
+        <div class="container">
+            <p>
+               Para enviar sua opinião, sugestões, comentários ou tirar dúvidas sobre nossos serviços e outros temas relacionados à assistência social, preencha os campos do formulário abaixo:
+            </p>
+                    
+
+            <form action="envia.php" method="post" id="form-contato">
+                <div class="login">
+                    <input name="nome" type="text" placeholder="Seu nome" required id="nome" class="input">
+                    <input name="email" type="email" placeholder="Seu e-mail" required id="email" class="input" >
+                </div>
+                              
+                <div class="assunto">
+                    <input type="fone" placeholder="Telefone" class="input"  required name="fone" id="fone" >
+                </div>
+                              
+                <div class="msg">
+                    <textarea  class="area" placeholder="Deixe sua mensagem" id="msg" name="msg" required></textarea>
+                </div>
+
+                <input type="submit" id="enviar" name="enviar" value="Enviar" class="btn">
+             
+            </form>
+                        
+        </div>
+    </section>
+	
+    
+    <footer>
+        <div class="container">
+            <div id="rodape-logo">
+                <a href="index.html"><img src="img/logo_cafe.png"" alt="logo da ong cafe"></a>
+            </div>
+
+            <div id="redes-sociais">
+                <nav>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
